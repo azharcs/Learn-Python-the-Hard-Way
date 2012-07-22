@@ -1,7 +1,7 @@
 inches = 75
 centimetres = inches *  2.52
 
-pounds = 160
+pounds = 165
 kilos = pounds * 0.453
 
 print "%d inches is %0.2f centimetres"  %(inches, centimetres)
