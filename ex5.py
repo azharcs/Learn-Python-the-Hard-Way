@@ -1,16 +1,16 @@
-name = 'Azharuddin A'
-age = 25.5 # it's a lie, #facebook scare
-height = 185 #inches
-weight = 74 #kgs
-eyes = 'Black' # color
-teeth = 'White' #color
-hair = 'Black' #color
+my_name = 'Azharuddin. A'
+my_age = 27 
+my_height = 6.3
+my_weight = 85
+my_eyes = 'Black'
+my_teeth = 'White'
+my_hair = 'Black'
 
-print "Let's talk about %s." %name
-print "his age is %0.2f" %age
-print "He's %d inches tall" %height
-print "He's %i kgs in weight." %weight
-print "He's got %s eyes and %s hair." %(eyes, hair) 
-print "His teeth's are %s depending on the coffee." %teeth
+print "Let's talk about %s." % my_name
+print "He's %r feet tall." % my_height
+print "He weighs %d KGs." % my_weight
+print "Actually that's not too tall"
+print "He's got %s eyes and %s hair" % (my_eyes, my_hair)
+print "His teeth are usually %s depending on the coffee." % my_teeth
 
-print "If I add %d, %d and %d, I'd get %d." %(age, height, weight, age + height + weight)
+print "If I add %d, %r and %d, I get %d" % (my_age, my_weight, my_height, my_age + my_height + my_weight)

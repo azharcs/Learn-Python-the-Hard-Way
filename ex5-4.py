@@ -1,10 +1,12 @@
-inches = 75
-centimetres = inches *  2.52
+inches = 35 
+pounds = 80
 
-pounds = 165
-kilos = pounds * 0.453
+inches_to_cms = inches * 2.54
+pounds_to_kgs = pounds * 0.453
 
-print "%d inches is %0.2f centimetres"  %(inches, centimetres)
-print "%0.2f pounds is %0.2f kilos" %(pounds, kilos)
+print "You entered: %d inches. Your height in cms is %0.2f" % (inches, inches_to_cms)
+print "You entered: %d pounds. Your weight in KGs is %r" % (pounds, pounds_to_kgs)
+
+
 
 
